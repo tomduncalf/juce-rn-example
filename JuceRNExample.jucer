@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT name="JuceRNExample" projectType="guiapp" jucerVersion="5.3.1"
+              bundleIdentifier="com.roli.JuceRNExample" id="D0r22L">
+  <MAINGROUP id="pwAqBK" name="JuceRNExample">
+    <GROUP id="{5A192D03-EAD0-2268-FF4F-9F5E074FB1F5}" name="Source">
+      <GROUP id="{ED8841C6-76C7-747F-6AEF-1F2CE4369FE5}" name="ios">
+        <FILE id="fhlcPD" name="AppDelegate.h" compile="0" resource="0" file="Source/iOS/AppDelegate.h"/>
+        <FILE id="xauS2J" name="AppDelegate.mm" compile="1" resource="0" file="Source/iOS/AppDelegate.mm"/>
+      </GROUP>
+      <GROUP id="{7C668854-0F47-2101-0DB7-9F5F855823DF}" name="react_native">
+        <FILE id="t0d7Em" name="BridgeDelegate.h" compile="0" resource="0"
+              file="Source/react_native/BridgeDelegate.h"/>
+        <FILE id="lg5ZtB" name="BridgeDelegate.mm" compile="1" resource="0"
+              file="Source/react_native/BridgeDelegate.mm"/>
+        <FILE id="Se29WX" name="ExampleModule.h" compile="0" resource="0" file="Source/react_native/ExampleModule.h"/>
+        <FILE id="Mo2yWz" name="ExampleModule.mm" compile="1" resource="0"
+              file="Source/react_native/ExampleModule.mm"/>
+      </GROUP>
+      <FILE id="FNnyV9" name="Main.h" compile="0" resource="0" file="Source/Main.h"/>
+      <FILE id="C2EgJ4" name="Main.mm" compile="1" resource="0" file="Source/Main.mm"/>
+      <FILE id="cIKxmK" name="NoiseGenerator.h" compile="0" resource="0"
+            file="Source/NoiseGenerator.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_IPHONE targetFolder="Builds/iOS" iosDevelopmentTeamID="S5LKE7JNDX" customPList="&lt;plist version=&quot;1.0&quot;&gt;&#10;&lt;dict&gt;&#10;&#9;&lt;key&gt;ROLIDevMachineIP&lt;/key&gt;&#10;&#9;&lt;string&gt;&lt;/string&gt;&#10;&lt;/dict&gt;&#10;&lt;/plist&gt;&#10;">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" binaryPath="$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)"/>
+        <CONFIGURATION isDebug="0" name="Release" binaryPath="$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="~/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="~/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="~/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="~/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="~/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="~/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="~/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_IPHONE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>

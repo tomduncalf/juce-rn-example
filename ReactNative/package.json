@@ -1,0 +1,13 @@
+{
+  "name": "JuceRNExample",
+  "version": "1.0.0",
+  "author": "Tom Duncalf <tom.duncalf@roli.com>",
+  "scripts": {
+    "start": "react-native start"
+  },
+  "dependencies": {
+    "react": "^16.3.1",
+    "react-native": "0.54"
+  },
+  "devDependencies": {}
+}
